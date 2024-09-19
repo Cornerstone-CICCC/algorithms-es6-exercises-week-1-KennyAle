@@ -9,6 +9,7 @@ let laugh = (n) => {
     for(i = 0; i < n; i++) {
         message += "ha"
     }
-    console.log(message)
+    finalmessage = message + "!"
+    console.log(finalmessage)
 }
 laugh(3)
