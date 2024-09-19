@@ -1,3 +1,33 @@
+let salary
+let completedEducation = "no high school diploma"
+
+switch (completedEducation) {
+    case "no high school diploma":
+        salary = 
+        console.log("no high school diploma")
+        break;
+    case 35.256:
+        console.log("high school diploma")
+        break;
+    case 41.496:
+        console.log("Associate's degree")
+        break;
+    case 59.124:
+        console.log("Bachelor's degree")
+        break;
+    case 69.732:
+        console.log("Master's degree")
+        break;
+    case 89.960:
+        console.log("Professional degree")
+        break;
+    case 84.396:
+        console.log("Doctoral degree")
+        break;
+    default:
+        console.log("asd")
+        break;
+}
 /*
 In 2015, the U.S. Bureau of Labor Statistics conducted research to reveal how average salary is directly related to the number of years spent in school. In their findings, they found that people with:
 
