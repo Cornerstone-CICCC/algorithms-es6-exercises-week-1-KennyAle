@@ -3,29 +3,33 @@ let completedEducation = "no high school diploma"
 
 switch (completedEducation) {
     case "no high school diploma":
-        salary = 
-        console.log("no high school diploma")
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $25,636/year.`)
         break;
-    case 35.256:
-        console.log("high school diploma")
+    case "high school diploma":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $35,256/year.`)
         break;
-    case 41.496:
-        console.log("Associate's degree")
+    case "Associate's degree":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $41,496/year.`)
+        console.log("3")
         break;
-    case 59.124:
-        console.log("Bachelor's degree")
+    case "Bachelor's degree":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $59,124/year.`)
+        console.log("4")
         break;
-    case 69.732:
-        console.log("Master's degree")
+    case "Master's degree":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $69,732/year.`)
+        console.log("5")
         break;
-    case 89.960:
-        console.log("Professional degree")
+    case "Professional degree":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $89,960/year.`)
+        console.log("6")
         break;
-    case 84.396:
-        console.log("Doctoral degree")
+    case "Doctoral degree":
+        console.log(`In 2015, a person with a ${completedEducation} earned an average of $84,396/year.`)
+        console.log("7")
         break;
     default:
-        console.log("asd")
+        console.log("NA")
         break;
 }
 /*
