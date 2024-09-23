@@ -20,3 +20,20 @@ console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
 console.log(lastIndexOf([], 3), "=?", -1);
 
 */
+
+function lastIndexOf (array, number) {
+    for (let index = array.length - 1; index >= 0; index--) {
+        const element = array[index]
+        if (element == number) {
+            console.log(index)
+            return
+        }
+    }
+    console.log(-1)
+}
+
+lastIndexOf([ 0, 1, 4, 1, 2 ], 1)
+lastIndexOf([ 0, 1, 4, 1, 2 ], 2)
+lastIndexOf([ 0, 1, 4, 1, 2 ], 3)
+lastIndexOf([ 5, 5, 5 ], 5)
+lastIndexOf([], 3)
